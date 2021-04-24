@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gmail.gorayan3838.tickratechangerfornoteblock.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "tickratechangerfornoteblock.refmap.json",
+  "mixins": [
+    "MinecraftServerMixin",
+  ],
+  "client": [
+    "client.MinecraftAccessor",
+    "client.TimerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
